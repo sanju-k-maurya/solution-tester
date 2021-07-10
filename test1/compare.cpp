@@ -1,3 +1,9 @@
+/*
+This file compares text files containing result generated from  brute force method  and optimized method
+and returns whether your solution is correct or not by comparing generated text files containing solution.
+It also gives you on how many test cases your code fails. 
+*/
+
 #include<iostream>
 #include<fstream>
 #include<string>

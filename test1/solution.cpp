@@ -1,3 +1,7 @@
+/*
+This file generates two different text files which contains result generated from brute force approach
+and optimized approach.
+*/
 #include<iostream>
 using namespace std;
 

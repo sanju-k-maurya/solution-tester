@@ -1,3 +1,4 @@
+//This file generates input test cases to run on problems.
 #include<iostream>
 #include<time.h>
 using namespace std;
@@ -7,10 +8,8 @@ int main(){
         freopen("input_test_case.txt","w",stdout);
     #endif
 
-
     srand(time(0));
     int t=(rand()%10)+1;
-    
     
     cout<<t<<endl;
 
@@ -22,5 +21,6 @@ int main(){
             cout<<i<<" ";
         cout<<endl;
     }
+
     return 0;
 }
